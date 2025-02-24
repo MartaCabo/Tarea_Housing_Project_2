@@ -1,0 +1,5 @@
+#Ignorar archivos de datos:
+*.csv
+
+#Ignorar archivo tree: 
+tree
