@@ -28,7 +28,7 @@ Toma como variables de entrada las siguientes características de la vivienda:
 - `YearBuilt`: Año de construcción
 - `GarageCars`: Capacidad del garaje en número de coches.
 
-En base a estas carácterísticas, el modelo predice el precio de un grupo de viviendas y guarda dichas predicciones un archivo `*.csv`.
+En base a estas características, el modelo predice el precio de un grupo de viviendas y guarda dichas predicciones un archivo `*.csv`.
 
 
 ```{toctree}

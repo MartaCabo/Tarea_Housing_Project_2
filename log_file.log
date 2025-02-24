@@ -89,3 +89,15 @@
 2025-02-23 20:03:31,019 - INFO - Variables seleccionadas correctamente.
 2025-02-23 20:03:31,024 - INFO - Predicciones guardadas en predicciones1.csv
 2025-02-23 20:03:31,025 - INFO - Proceso completado. Predicciones guardadas en predicciones1.csv
+2025-02-24 23:55:18,844 - INFO - Cargando datos de entrenamiento...
+2025-02-24 23:55:18,856 - INFO - Datos cargados correctamente desde train.csv
+2025-02-24 23:55:18,856 - INFO - Seleccionando variables...
+2025-02-24 23:55:18,860 - INFO - Variables seleccionadas correctamente.
+2025-02-24 23:55:18,860 - INFO - Entrenando modelo de Random Forest...
+2025-02-24 23:55:19,110 - INFO - Error Absoluto Medio Porcentual (MAPE):0.18559692734308458
+2025-02-24 23:55:19,167 - INFO - Modelo guardado como 'random_forest_model.pkl'
+2025-02-24 23:55:19,168 - INFO - Cargando datos de prueba y generando predicciones...
+2025-02-24 23:55:19,204 - INFO - Variables seleccionadas correctamente.
+2025-02-24 23:55:19,223 - INFO - Variables seleccionadas correctamente.
+2025-02-24 23:55:19,229 - INFO - Predicciones guardadas en prediciones.csv
+2025-02-24 23:55:19,230 - INFO - Proceso completado. Predicciones guardadas en prediciones.csv
