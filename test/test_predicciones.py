@@ -1,4 +1,4 @@
-"""_summary_
+"""
     Módulo de test para las predicciones.
     Este módulo ejecuta pruebas unitarias para las funciones del módulo de predicciones.
 """

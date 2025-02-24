@@ -9,7 +9,7 @@ from src.data_processing import cargar_datos, seleccionar_variables
 
 class TestProcesamientoDatos(unittest.TestCase):
     def setUp(self):
-        """_summary_
+        """
         Configuración inicial para las pruebas. Crea un DataFrame de prueba y lo guarda en un archivo CSV
         """
         # Crear un DataFrame de prueba
@@ -29,7 +29,7 @@ class TestProcesamientoDatos(unittest.TestCase):
         self.df.to_csv(self.test_file, index=False)
 
     def tearDown(self):
-        """_summary_
+        """
         Limpieza después de las pruebas. Elimina el archivo CSV de prueba
         """
         # Eliminar archivos generados durante el test
@@ -39,7 +39,7 @@ class TestProcesamientoDatos(unittest.TestCase):
             os.remove("test/test_file.csv")
     
     def test_cargar_datos(self):
-        """_summary_
+        """
         Prueba la función cargar_datos del módulo de procesamiento de datos
         """
         data = cargar_datos(self.test_file)
@@ -48,7 +48,7 @@ class TestProcesamientoDatos(unittest.TestCase):
         self.assertEqual(list(data.columns), list(self.df.columns))
     
     def test_seleccionar_variables(self):
-        """_summary_
+        """
         Prueba la función seleccionar_variables del módulo de procesamiento de datos
         """
         data = cargar_datos(self.test_file)

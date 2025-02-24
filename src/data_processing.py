@@ -18,7 +18,9 @@ logging.basicConfig(
 def cargar_datos(archivo):
     """
     Carga un archivo CSV en un DataFrame de pandas.
+
     :param archivo: Ruta del archivo CSV.
+    
     :return: DataFrame con los datos cargados.
     """
     try:
@@ -35,7 +37,9 @@ def cargar_datos(archivo):
 def seleccionar_variables(data):
     """
     Selecciona variables específicas del DataFrame.
+
     :param data: DataFrame original.
+    
     :return: Nuevo DataFrame con las variables seleccionadas.
     """
     columnas = [

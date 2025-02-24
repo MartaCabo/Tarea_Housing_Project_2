@@ -1,4 +1,4 @@
-"""_summary_
+"""
 Módulo de test para el modelo Random Forest.
 Este módulo ejecuta pruebas unitarias para las funciones del módulo de modelo Random Forest.
 """
@@ -11,7 +11,7 @@ from src.modelo_RF import entrenar_modelo
 
 class TestModeloRandomForest(unittest.TestCase):
     def setUp(self):
-        """_summary_
+        """
         Configuración inicial para las pruebas. Crea un DataFrame de prueba y lo guarda en un archivo CSV
         """
         # Crear un DataFrame de prueba con variables seleccionadas y SalePrice
@@ -27,7 +27,7 @@ class TestModeloRandomForest(unittest.TestCase):
         self.df = pd.DataFrame(data)
 
     def test_entrenar_modelo(self):
-        """_summary_
+        """
         Prueba la función de entrenamiento del modelo Random Forest. 
         Verifica que el modelo se ha guardado correctamente
         """

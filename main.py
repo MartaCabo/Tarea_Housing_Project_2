@@ -1,9 +1,5 @@
 """
-Este script orquesta todo el flujo del proceso:
-1.- Carga los datos
-2.- Selecciona variables relevantes
-3.- Entrena modelo
-4.- Genera predicciones y guarda resultados
+Este script orquesta todo el flujo del proceso
 """
 
 import logging
@@ -21,6 +17,7 @@ logging.basicConfig(
 def main(archivo_train, archivo_test, archivo_salida):
     """
     Orquesta todo el flujo del proceso:
+
     1. Carga los datos de entrenamiento.
     2. Selecciona variables relevantes.
     3. Separar características y variable objetivo

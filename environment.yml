@@ -8,4 +8,8 @@ dependencies:
   - scikit-learn
   - joblib
   - pytest 
+  - pip:
+    - sphinx
+    - sphinx_rtd_theme
+    - myst-parser
 prefix: /opt/anaconda3/envs/tarea5

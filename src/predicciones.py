@@ -1,5 +1,4 @@
-"""_summary_
-Módulo de predicciones.
+"""
 Este módulo contiene una función para cargar un modelo
 Random Forest y hacer predicciones sobre nuevos datos.
 """
