@@ -4,3 +4,8 @@
 #Ignorar archivo tree: 
 tree
 
+#Ignorar carpeta build:
+docs/build
+
+
+
